@@ -64,7 +64,6 @@ import java.util.Objects;
                     && Objects.equals(firstName, employee.firstName)
                     && Objects.equals(lastName, employee.lastName);
         }
-
         @Override
         public int hashCode() {
             return Objects.hash(id, firstName, lastName, dept, salary);

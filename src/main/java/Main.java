@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         EmployeeMap staff = new EmployeeMap();
-        staff.hireEmployee(new Employee("Иван", "Сидоров", 3, 9.0));
+        staff.hireEmployee(new Employee("Иван", "Сидоров", 3, 10.0));
         staff.hireEmployee(new Employee("Алексей", "Кузнецов", 5, 12.0));
         staff.hireEmployee(new Employee("Ольга", "Малинина", 1, 25.0));
         staff.hireEmployee(new Employee("Мария", "Попова", 2, 50.0));

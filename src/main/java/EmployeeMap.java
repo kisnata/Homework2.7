@@ -54,7 +54,6 @@ public class EmployeeMap {
     public void showAllEmployees() {
         staff.forEach((k, v) -> System.out.println(v));
     }
-
     public void showFullNames() {
         for (var e : staff.values()) {
             System.out.println(e.getFullName());
