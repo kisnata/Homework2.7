@@ -45,7 +45,6 @@ import java.util.Objects;
             return "id: " + id + ", name: " + getFullName()
                     + ", department: " + dept + ", salary: " + salary;
         }
-
         public void setDepartment(int dept) {
             this.dept = dept;
         }

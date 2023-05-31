@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class EmployeeMap {
     private Map<String, Employee> staff = new HashMap<>();
 
